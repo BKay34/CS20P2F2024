@@ -54,7 +54,7 @@ System.out.print("AN ERROR HAS OCCURED");
 return;
 }
 
-System.out.println("What is" + n1 + " " + operator + " "  + n2 + "=?"  );
+System.out.println("What is " + n1 + " " + operator + " "  + n2 + " = ? "  );
 // getting the users answer
 int userAnswer = UserInput.nextInt();
 //calculating the correct answer
@@ -76,5 +76,7 @@ System.out.println("YOURE ANSWER IS WRONG");
 What is9 * 5=?
  45
 YOUR ANSWER IS CORRECT
-
+What is 4 + 7=?
+1
+YOURE ANSWER IS WRONG
  */
