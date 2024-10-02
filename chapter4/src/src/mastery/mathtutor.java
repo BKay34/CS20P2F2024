@@ -1,3 +1,14 @@
+/*
+	
+	Program: mathtutor.java          Last Date of this Revision: October 1st 2024
+
+	Purpose: An application that tutors you through random prompted math questions.
+
+	Author: Justin Fung,
+	School: CHHS
+	Course: Computer Programming 20
+	*/ 
+
 package src.mastery;
 
 import java.util.Random;
@@ -61,3 +72,9 @@ System.out.println("YOURE ANSWER IS WRONG");
 }
 }
 }
+/* Screen Dump
+What is9 * 5=?
+ 45
+YOUR ANSWER IS CORRECT
+
+ */
