@@ -1,3 +1,14 @@
+/*
+	
+	Program: guessinggame.java          Last Date of this Revision: October 2nd 2024
+
+	Purpose: An application that prompts you to guess a number between 1 and 20
+
+	Author: Justin Fung,
+	School: CHHS
+	Course: Computer Programming 20
+	*/ 
+
 package src.mastery;
 
 import java.util.Random;
