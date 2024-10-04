@@ -42,6 +42,16 @@ else
 	}
 }
 
-
+/*
+ Case 1:
+ Enter a number between 1 and 20:  14
+Computer's Number: 19
+Player's Number: 14
+YOU LOSE!
+Case 2:
+Enter a number between 1 and 20: Computer's Number: 14
+Player's Number: 14
+YOU WON
+ */
 
 	

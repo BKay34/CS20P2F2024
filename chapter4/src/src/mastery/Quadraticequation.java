@@ -53,3 +53,20 @@ else {
 }
 }
 }
+/*
+ Case 1:
+ Please enter the value of a: 
+12
+Enter a value for b: 
+1
+Please enter the value of c: 
+5
+Your roots are not real
+Case 2: Please enter the value of a: 
+1
+Enter a value for b: 
+2
+Please enter the value of c: 
+1
+The root of this equation is: -2 
+*/
