@@ -1,3 +1,14 @@
+
+/*
+	
+	Program: primenumbers.java          Last Date of this Revision: October 10th 2024
+
+	Purpose: An application that can determine if a number is a prime digit or not.
+
+	Author: Justin Fung,
+	School: CHHS
+	Course: Computer Programming 20
+	*/ 
 package mastery;
 
 
@@ -24,17 +35,17 @@ public class primenumbers {
 
 		//Declaration 
 
-		int user_num; //user input
+		int un; //user input
 
-		int i; //for loop var
+		int i; //for loop variable
 
-		boolean prime = false; //to check if prime or not
+		boolean prime = false; // finding out if number is prime or not
 
 		
 
 		System.out.println("Enter a number. This program will tell you if it is prime or not: "); //prompt user to enter number
 
-		user_num = input.nextInt(); //store number in variable
+		un = input.nextInt(); //store number in variable
 
 		
 
@@ -42,7 +53,7 @@ public class primenumbers {
 
 		
 
-		if (user_num == 1 || user_num == 0) //If the users inputed number is 1, 0 , or a negative number
+		if (un == 1 || un == 0) // if user input is 1 or 0 then the boolean value is true
 
 		{
 
@@ -56,11 +67,11 @@ public class primenumbers {
 
 	
 
-		for (i = 2; i <= user_num / 2; ++i) //Take the numbers between 2 and usernum
+		for (i = 2; i <= un / 2; ++i) //Take the numbers between 2 and usernumber
 
 		{
 
-if (user_num % i == 0) //if the remainder is 0, than that means the number is not a prime
+if (un % i == 0) //if the remainder is 0, than that means the number is not a prime
 
 				
 
@@ -99,3 +110,13 @@ if (!prime) //if prime is not true
 
 
 }
+/*
+case 1:
+Enter a number. This program will tell you if it is prime or not: 
+3
+Your number is prime.
+case 2:
+Enter a number. This program will tell you if it is prime or not: 
+4
+Your number isn't prime.
+*/
