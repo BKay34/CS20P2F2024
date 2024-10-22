@@ -49,9 +49,6 @@ public class primenumbers {
 
 		
 
-		
-
-		
 
 		if (un == 1 || un == 0) // if user input is 1 or 0 then the boolean value is true
 
@@ -62,8 +59,6 @@ public class primenumbers {
 		
 
 		} 
-
-		
 
 	
 

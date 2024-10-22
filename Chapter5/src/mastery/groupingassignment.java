@@ -21,10 +21,10 @@ public static void main(String[] args) {
 	
 	//asking user for their names
 	
-	System.out.println("Please input your first name");
+	System.out.println("Please input your first name:	");
 	firstname = input.next();
 	
-	System.out.println("Please input your last name");
+	System.out.println("Please input your last name:	");
 	lastname = input.next();
 	
 	//determining which names go within which test

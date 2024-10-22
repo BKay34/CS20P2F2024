@@ -25,7 +25,7 @@ secretNumber = random.nextInt(20) + 1;  // Generates a number between 1 and 20
 Scanner UserInput = new Scanner(System.in);
 while(playerNumber != secretNumber)
 	{
-	System.out.println("Enter a number between 1 and 20: ");
+	System.out.println("Guess a number between 1 and 20: ");
 	playerNumber = UserInput.nextInt();
 	if(playerNumber == secretNumber) 
 	{
@@ -43,14 +43,14 @@ while(playerNumber != secretNumber)
 }
 /*
  case 1: 
- Enter a number between 1 and 20: 
+ Guess a number between 1 and 20: 
 1
 YOU LOSE!
-Enter a number between 1 and 20: 
+Guess a number between 1 and 20: 
 2
 YOU LOSE!
  case 2:
- Enter a number between 1 and 20: 
+ Guess a number between 1 and 20: 
 10
 YOU WON
 */ 
