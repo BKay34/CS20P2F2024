@@ -47,6 +47,7 @@ public class metricconversion {
 	//asking user to choose a conversion method 
 	System.out.println("Conversions: ");
 	System.out.println("Choose a conversion method 1-8:  ");
+	conversion = input.nextInt();
 	System.out.println("1. Inches to Centimeters ");
 	System.out.println("2. Feet to Centimeters ");
 	System.out.println("3. Yards to Meters ");
@@ -56,7 +57,10 @@ public class metricconversion {
 	System.out.println("7. Meters to Yards ");
 	System.out.println("8. Kilometers to Miles ");
 	
-
+	if(conversion == 1)
+	{
+		(inchToCenti)
+	}
 
 
 
