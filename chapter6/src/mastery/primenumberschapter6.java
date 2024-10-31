@@ -1,6 +1,7 @@
 package mastery;
 
-public class primenumberschapter6 {
+public class primenumberschapter6 
+
 
 
 import java.util.Scanner;
