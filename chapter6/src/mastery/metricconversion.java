@@ -1,3 +1,14 @@
+/*
+	
+	Program: metricconverion.java          Last Date of this Revision: oct 31st 2024
+
+	Purpose: An application that can convert any user number into a different metric unit.
+
+	Author: Justin Fung,
+	School: CHHS
+	Course: Computer Programming 20
+	*/ 
+
 package mastery;
 
 import java.util.Scanner;
@@ -113,3 +124,34 @@ public class metricconversion {
 	}
 }
 }
+/* case 1:
+ Please enter a number:	
+15
+Conversions: 
+Choose a conversion method 1-8:  
+1. Inches to Centimeters 
+2. Feet to Centimeters 
+3. Yards to Meters 
+4. Miles to Kilometers 
+5. Centimeters to Inches 
+6. Centimeters to Feet 
+7. Meters to Yards 
+8. Kilometers to Miles 
+1
+Your new measurement is:  38.1Cm
+case 2:
+Please enter a number:	
+14
+Conversions: 
+Choose a conversion method 1-8:  
+1. Inches to Centimeters 
+2. Feet to Centimeters 
+3. Yards to Meters 
+4. Miles to Kilometers 
+5. Centimeters to Inches 
+6. Centimeters to Feet 
+7. Meters to Yards 
+8. Kilometers to Miles 
+6
+Your new measurement is:  0.45931758530183725Ft
+*/

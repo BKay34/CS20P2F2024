@@ -1,3 +1,14 @@
+/*
+	
+	Program: PrimeNumbersChap6.java          Last Date of this Revision: oct 31st 2024
+
+	Purpose: An application that can test if a value is prime or not.
+
+	Author: Justin Fung,
+	School: CHHS
+	Course: Computer Programming 20
+	*/ 
+
 package mastery;
 
 import java.util.Scanner;
@@ -93,3 +104,13 @@ if (!prime) //if prime is not true
 
 
 }
+/*
+Case 1:
+Enter a number. This program will tell you if it is prime or not: 
+159
+Your number isn't prime.
+Case 2:
+Enter a number. This program will tell you if it is prime or not: 
+59
+Your number is prime.
+*/
