@@ -20,7 +20,7 @@ public class Mysavings {
 
 				//Set up user's bank balance by using object
 
-					piggybank userbank = piggybank(iB); 
+					piggybank userbank = piggybank(iB);
 
 				
 
@@ -133,11 +133,6 @@ public class Mysavings {
 					System.out.println("Thank you for using this Program.");
 
 		}
-
-	private static piggybank piggybank(double iB) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 		}
 
