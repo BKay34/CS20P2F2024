@@ -3,7 +3,7 @@ package chapter7;
 public class skillbuilder1 {
 
 private static final double PI = 3.14;
-private double (radius);
+private double. (radius);
 
 
 

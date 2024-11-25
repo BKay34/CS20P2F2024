@@ -10,20 +10,134 @@ public class Mysavings {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
-//declarations
-int pennies, dimes, quarters, nickels, addcoin, removecoin, return;
+		//Prompt user for inital bank balance;
 
-//asking user to select a method
+				System.out.println("Enter your initial Balance in dollars: ");
+//declaration for intial balance
+				double iB = input.nextDouble();
+				
+				
 
-System.out.println("Make selection based on the bottom:  ");
-System.out.println("1. Show total in bank ");
-System.out.println("2. Add a penny ");
-System.out.println("3. Add a nickel ");
-System.out.println("4. Add a dime ");
-System.out.println("5. Add a quarter ");
-System.out.println("6. Take money out of bank ");
-System.out.println("Enter 0 to quit ");
-System.out.println("Enter you choice: 5 ");
+				//Set up user's bank balance by using object
 
-}
-}
+					piggybank userbank = piggybank(iB); 
+
+				
+
+				//Start While loop to keep coming back to options until user inputs 0
+
+					int choice = 10;
+
+					while(choice !=0)
+
+					{
+
+						//Ask user and present their choices
+
+						System.out.println("1. Enter Total in Bank.");
+
+						System.out.println("2. Add a Penny.");	
+
+						System.out.println("3 Add a Nickel.");	
+
+						System.out.println("4. Add a Dime..");
+
+						System.out.println("5. Add a Quarter.");	
+
+						System.out.println("6. Take out money.");	
+
+						System.out.println("Enter 0 to QUIT");	
+
+						System.out.println("Enter your choice: ");	
+
+						choice = input.nextInt();
+
+						
+
+						switch (choice)
+
+						{
+
+						
+
+						case 0:
+
+							System.out.println("Quitting the program.");
+
+						
+
+						case 1 : 
+
+							System.out.println(userbank.toString());
+
+							break;
+
+							
+
+						case 2 : 
+
+							System.out.println(userbank.AddP());
+
+							break;
+
+							
+
+						case 3 : 
+
+							System.out.println(userbank.AddN());
+
+							break;
+
+							
+
+						case 4 : 
+
+							System.out.println(userbank.AddD());
+
+							break;
+
+							
+
+						case 5 : 
+
+							System.out.println(userbank.AddQ());
+
+							break;
+
+							
+
+						case 6 :
+
+							
+
+							System.out.println("Choose the amount you want to take out: ");
+
+							 double M_out = input.nextDouble();
+
+							 
+
+							System.out.println(userbank.takeM(M_out));
+
+							input.close();
+
+						
+
+					}
+
+
+
+					
+
+			}
+
+					System.out.println("Thank you for using this Program.");
+
+		}
+
+	private static piggybank piggybank(double iB) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+		}
+
