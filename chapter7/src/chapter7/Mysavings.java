@@ -20,7 +20,7 @@ public class Mysavings {
 
 				//Set up user's bank balance by using object
 
-					piggybank userbank = piggybank(iB);
+				piggybank userbank = new piggybank(iB);
 
 				
 

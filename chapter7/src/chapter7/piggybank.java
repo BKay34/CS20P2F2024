@@ -30,10 +30,26 @@ public class piggybank {
 		BB_String = ("Your bank balance is: " + BB);
 		return BB_String;
 	}
-
-
-
-
+	public double AddP()
+	{
+		return P;
+	}
+	public double AddN()
+	{
+		return N;
+	}
+	public double AddQ()
+	{
+		return Q;
+	}
+	public double AddD()
+	{
+		return D;
+	}
+	public char[] takeM(double m_out) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 
 
