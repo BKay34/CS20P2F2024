@@ -8,16 +8,27 @@ import java.util.Scanner;
 
 public class num {
 // linking all values
-	W, O, T, H; 
+ private int num; 
 
-	public num() {
+	public num(int integer) {
+		num = integer;
+	}
 		// TODO Auto-generated constructor stub
 	
-	int n =  UserInput.nextInt();
-	int baseHundreds = (n / 100);
-	int baseTen = (n - baseHundreds * 100) / 10;
-	int ones = n%10;
-	System.out.println("Your Hundreds place is:		" + baseHundreds);
-	System.out.println("Your Tens is:	" + baseTen);
-	System.out.println( "your ones is:	" + ones);
-}}
+	//method which returns number variable
+	
+	public int wholeNum() {
+		return num;
+	}
+	public int onesNum() {
+		return num%10;
+	}
+	public int tensNum() {
+		return (num/10)%10;
+	}
+	public int hundsNum() {
+		return (num/100)%10;
+	}
+	
+	
+}

@@ -23,7 +23,7 @@ public class digitextractor {
 		
 		// setting up object for num
 		
-		Number placeV = new Number(num);
+		Number placeV = new number(num);
 		
 		System.out.println("Show (W)hole number. ");
 		System.out.println("Show (O)nes number. ");
