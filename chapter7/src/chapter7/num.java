@@ -3,9 +3,6 @@
  */
 package chapter7;
 
-import java.util.Scanner;
-
-
 public class num {
 // linking all values
  private int num; 

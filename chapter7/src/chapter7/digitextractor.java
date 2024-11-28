@@ -5,9 +5,6 @@ package chapter7;
 
 import java.util.Scanner;
 
-/**
- * 
- */
 public class digitextractor {
 
 	/**
@@ -23,7 +20,7 @@ public class digitextractor {
 		
 		// setting up object for num
 		
-		Number placeV = new number(num);
+		num placeV = new num(num);
 		
 		while(true) { 
 		System.out.println("Show (W)hole number. ");
@@ -32,20 +29,27 @@ public class digitextractor {
 		System.out.println("Show (H)undreds number. ");
 		System.out.println("(Q)uit. ");
 		
-		String choice = input.next();
-
-		if (choice.equals("Q")) {
-			break;
+		String choicestr = input.next().toLowerCase();
 		
+		char choice = choicestr.charAt(0);
+
 		//Start While loop to keep coming back to options until user inputs 0
-		char choice = ' ';
+		 choice = ' ';
 		
 	// when user chooses W O T H these following cases will occur
 		switch(choice) {
-		case 'W' : System.out.printLn("Your integer is: " + .wholeNum()); break;
-		}
+		case 'w' : System.out.println("Your integer is: " + placeV.wholeNum()); break;
+		
+		case 'o' : System.out.println("Your ones place is: " + placeV.onesNum()); break;
 	
+		case 't' : System.out.println("Your tens place is: " + placeV.tensNum()); break;
 	
-	
+		case 'h' : System.out.println("Your hundreds place is: " + placeV.hundsNum()); break;
+		
+		// if user enters a incorrect amount
+		default: System.out.println("Youve entered a incorrect choice please try again ");
+		
+		
 	}
+}}
 }
