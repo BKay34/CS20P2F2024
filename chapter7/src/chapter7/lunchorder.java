@@ -39,7 +39,7 @@ public class lunchorder {
 			int nsoda = input.nextInt();
 			System.out.println(soda.toString());
 			//outputs total amount of money user owes for the food by accessing it through total method
-			System.out.println("Your order comes to: $ " + formatter.format(food.total()));
+			System.out.println("Your order comes to: $ " + total);
 	}	
 	}
 
