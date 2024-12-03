@@ -17,7 +17,7 @@ public class lunchorder {
 		Scanner input = new Scanner(System.in);
 		DecimalFormat formatter = new DecimalFormat("#.##");
 	
-		
+		// showing each parameter.
 		food burgers = new food("burger", 1.85, 9, 33, 1);
 		food salads = new food("salads", 2.00, 1, 11, 5);
 		food fries = new food("fries", 1.30, 11, 36, 4);

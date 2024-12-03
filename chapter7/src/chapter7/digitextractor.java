@@ -29,8 +29,8 @@ public class digitextractor {
 		System.out.println("Show (H)undreds number. ");
 		System.out.println("(Q)uit. ");
 		
-		String choicestr = input.next().toLowerCase();
 		
+		String choicestr = input.next().toLowerCase();
 		char choice = choicestr.charAt(0);
 
 		//Start While loop to keep coming back to options until user inputs 0
