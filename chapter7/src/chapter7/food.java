@@ -22,7 +22,7 @@ public class food {
 		
 		public String toString() {
 			String info;
-			info = "Each " + name + "has" + fat + "g of fat, " + carbs+ "g of carbs, and "+ fiber+ "g of fiber";
+			info = " Each " + name + " has " + fat + "g of fat, " + carbs+ " g of carbs, and "+ fiber+ " g of fiber ";
 			return info;
 		}	
 		// method which returns the price variable which holds the dollar value of the user's order
