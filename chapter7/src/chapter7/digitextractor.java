@@ -21,8 +21,8 @@ public class digitextractor {
 		// setting up object for num
 		
 		num placeV = new num(num);
-		
-		while(true) { 
+		char choice = ' ';
+		while(choice != 'q') { 
 		System.out.println("Show (W)hole number. ");
 		System.out.println("Show (O)nes number. ");
 		System.out.println("Show (T)ens number. ");
@@ -31,10 +31,9 @@ public class digitextractor {
 		
 		
 		String choicestr = input.next().toLowerCase();
-		char choice = choicestr.charAt(0);
+		choice = choicestr.charAt(0);
 
 		//Start While loop to keep coming back to options until user inputs 0
-		 choice = ' ';
 		
 	// when user chooses W O T H these following cases will occur
 		switch(choice) {
@@ -45,6 +44,8 @@ public class digitextractor {
 		case 't' : System.out.println("Your tens place is: " + placeV.tensNum()); break;
 	
 		case 'h' : System.out.println("Your hundreds place is: " + placeV.hundsNum()); break;
+		
+		case 'q' : System.out.println("You have quit! ");
 		
 		// if user enters a incorrect amount
 		default: System.out.println("Youve entered a incorrect choice please try again ");
