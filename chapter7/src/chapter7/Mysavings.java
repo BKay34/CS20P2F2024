@@ -1,4 +1,10 @@
-/**
+/*Program: Mysavings.java          Last Date of this Revision: dec 1 2024
+
+	Purpose: An application that asks you for different types of numbers and find the place values
+
+	Author: Justin Fung,
+	School: CHHS
+	Course: Computer Programming 20
  * 
  */
 package chapter7;
@@ -152,4 +158,18 @@ Show (T)ens number.
 Show (H)undreds number. 
 (Q)uit. 
  * 
- * case 2:
+ * case 2:Please enter a integer: 
+55
+Show (W)hole number. 
+Show (O)nes number. 
+Show (T)ens number. 
+Show (H)undreds number. 
+(Q)uit. 
+o
+Your ones place is: 5
+Show (W)hole number. 
+Show (O)nes number. 
+Show (T)ens number. 
+Show (H)undreds number. 
+(Q)uit. 
+*/
