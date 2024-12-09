@@ -136,3 +136,20 @@ public class Mysavings {
 
 		}
 
+/* screen dump:
+ case 1:Please enter a integer: 
+15
+Show (W)hole number. 
+Show (O)nes number. 
+Show (T)ens number. 
+Show (H)undreds number. 
+(Q)uit. 
+w
+Your integer is: 15
+Show (W)hole number. 
+Show (O)nes number. 
+Show (T)ens number. 
+Show (H)undreds number. 
+(Q)uit. 
+ * 
+ * case 2:
