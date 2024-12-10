@@ -55,4 +55,19 @@ public class lunchorder {
 	}	
 	}
 
+/*
 
+ case 1: 
+ *Enter number of hamburgers: 
+5
+ Each burger has 9g of fat, 33 g of carbs, and 1 g of fiber 
+Enter number of salads: 
+1
+ Each salads has 1g of fat, 11 g of carbs, and 5 g of fiber 
+Enter number of french fries: 
+5
+ Each fries has 11g of fat, 36 g of carbs, and 4 g of fiber 
+Enter number of sodas: 6
+ Each soda has 0g of fat, 38 g of carbs, and 0 g of fiber 
+Your order comes to: $ 23.45
+*/
