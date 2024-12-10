@@ -1,3 +1,14 @@
+/*
+ * /*Program: lunchorder.java          Last Date of this Revision: dec 5 2024
+
+	Purpose: An application that asks you for a lunch order which then provides all your nutritional facts and your total price.
+
+	Author: Justin Fung,
+	School: CHHS
+	Course: Computer Programming 20
+ * 
+ */
+
 package chapter7;
 
 import java.text.DecimalFormat;
@@ -15,7 +26,7 @@ public class lunchorder {
 
 		// creating food, scanner and decimal object
 		Scanner input = new Scanner(System.in);
-		DecimalFormat formatter = new DecimalFormat("#.##");
+		
 	
 		// showing each parameter.
 		food burgers = new food("burger", 1.85, 9, 33, 1);

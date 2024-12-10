@@ -1,6 +1,13 @@
-/**
+/*Program: digitextractor.java          Last Date of this Revision: dec 1 2024
+
+	Purpose: An application that asks you for a integer whlist also giving you a choice to choose what to do with the integer.
+
+	Author: Justin Fung,
+	School: CHHS
+	Course: Computer Programming 20
  * 
  */
+ 
 package chapter7;
 
 import java.util.Scanner;
@@ -54,3 +61,34 @@ public class digitextractor {
 	}
 }}
 }
+/* screen dump:
+case 1:Please enter a integer: 
+15
+Show (W)hole number. 
+Show (O)nes number. 
+Show (T)ens number. 
+Show (H)undreds number. 
+(Q)uit. 
+w
+Your integer is: 15
+Show (W)hole number. 
+Show (O)nes number. 
+Show (T)ens number. 
+Show (H)undreds number. 
+(Q)uit. 
+* 
+* case 2:Please enter a integer: 
+55
+Show (W)hole number. 
+Show (O)nes number. 
+Show (T)ens number. 
+Show (H)undreds number. 
+(Q)uit. 
+o
+Your ones place is: 5
+Show (W)hole number. 
+Show (O)nes number. 
+Show (T)ens number. 
+Show (H)undreds number. 
+(Q)uit. 
+*/

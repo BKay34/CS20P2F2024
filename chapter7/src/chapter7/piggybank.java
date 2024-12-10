@@ -18,7 +18,7 @@ public class piggybank {
 	//constructor method
 	public piggybank(double iB)
 	{
-		BB= 0;
+		BB= iB;
 	}
 	public double getB()
 	{
@@ -27,7 +27,7 @@ public class piggybank {
 	public String toString()
 	{
 		String  BB_String;
-		BB_String = ("Your bank balance is: " + BB);
+		BB_String = ("Your bank balance is: $ " + BB);
 		return BB_String;
 	}
 	public double AddP()
@@ -46,9 +46,9 @@ public class piggybank {
 	{
 		return D;
 	}
-	public char[] takeM(double m_out) {
+	public double takeM(double m_out) {
 		// TODO Auto-generated method stub
-		return null;
+		return  BB - m_out;
 	}
 
 

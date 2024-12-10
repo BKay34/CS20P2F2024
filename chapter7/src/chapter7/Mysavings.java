@@ -1,12 +1,14 @@
-/*Program: Mysavings.java          Last Date of this Revision: dec 1 2024
+/*
+ * /*Program: Mysavings.java          Last Date of this Revision: dec 3 2024
 
-	Purpose: An application that asks you for different types of numbers and find the place values
+	Purpose: An application that asks you for a inital bank balance and gives you a series of choices for you to change your amount.
 
 	Author: Justin Fung,
 	School: CHHS
 	Course: Computer Programming 20
  * 
  */
+ 
 package chapter7;
 
 import java.util.Scanner;
@@ -142,34 +144,43 @@ public class Mysavings {
 
 		}
 
-/* screen dump:
- case 1:Please enter a integer: 
+/*
+ * Enter your initial Balance in dollars: 
+56
+1. Enter Total in Bank.
+2. Add a Penny.
+3 Add a Nickel.
+4. Add a Dime..
+5. Add a Quarter.
+6. Take out money.
+Enter 0 to QUIT
+Enter your choice: 
+1
+Your bank balance is: 56.0
+
+case 2:
+Enter your initial Balance in dollars: 
 15
-Show (W)hole number. 
-Show (O)nes number. 
-Show (T)ens number. 
-Show (H)undreds number. 
-(Q)uit. 
-w
-Your integer is: 15
-Show (W)hole number. 
-Show (O)nes number. 
-Show (T)ens number. 
-Show (H)undreds number. 
-(Q)uit. 
- * 
- * case 2:Please enter a integer: 
-55
-Show (W)hole number. 
-Show (O)nes number. 
-Show (T)ens number. 
-Show (H)undreds number. 
-(Q)uit. 
-o
-Your ones place is: 5
-Show (W)hole number. 
-Show (O)nes number. 
-Show (T)ens number. 
-Show (H)undreds number. 
-(Q)uit. 
+1. Enter Total in Bank.
+2. Add a Penny.
+3 Add a Nickel.
+4. Add a Dime..
+5. Add a Quarter.
+6. Take out money.
+Enter 0 to QUIT
+Enter your choice: 
+1
+Your bank balance is: $ 15.0
+1. Enter Total in Bank.
+2. Add a Penny.
+3 Add a Nickel.
+4. Add a Dime..
+5. Add a Quarter.
+6. Take out money.
+Enter 0 to QUIT
+Enter your choice: 
+6
+Choose the amount you want to take out: 
+12
+3.0
 */

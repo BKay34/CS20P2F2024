@@ -1,11 +1,13 @@
 package chapter7;
 
+import java.text.DecimalFormat;
+
 public class food {
 
 	private double price; 
 	private String name; 
 	private int fat, carbs, fiber;
-
+	DecimalFormat formatter = new DecimalFormat("#.##");
 
 	// A constructor method that is in use when the price is at $0
 	public food(String na,double p, int fats, int carb, int fib) {
