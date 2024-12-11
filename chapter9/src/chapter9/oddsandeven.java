@@ -22,14 +22,14 @@ public class oddsandeven {
 	//generating the 25 integers randomly using range and assigning them in the array made to store them
 			for( int i = 0; i<25; i++) {
 		
-				num[25] = (int)(Math.random() * range);
+				num[i] = (int)(Math.random() * range);
 			}
 		// TO DISplay all odd numbers. 
 			System.out.println("ODD: ");
 			
 			for( int i = 0; i<25; i++);
-			if ((num[25] %2) != 0) {
-				System.out.println(num[25]);
+			if ((num[max] % 2) != 0) {
+				System.out.println(num[max]);
 				System.out.println(" ");
 	}
 			//Blank output to create space between the even and odd numbers
