@@ -28,8 +28,8 @@ public class oddsandeven {
 			System.out.println("ODD: ");
 			
 			for( int i = 0; i<25; i++);
-			if ((num[max] % 2) != 0) {
-				System.out.println(num[max]);
+			if ((num[i] % 2) != 0) {
+				System.out.println(num[i]);
 				System.out.println(" ");
 	}
 			//Blank output to create space between the even and odd numbers
