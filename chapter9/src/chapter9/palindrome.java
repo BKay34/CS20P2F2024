@@ -38,14 +38,10 @@ public static void main(String[] args) {
 			} else { //if the variable is true than will output that the phrase is a palindrome
 				System.out.print("Your phrase is a palindrome");
 			}
-
-
-
-
-
-
-
-
-
+	
 }
 }
+
+
+/* test case 1:
+
