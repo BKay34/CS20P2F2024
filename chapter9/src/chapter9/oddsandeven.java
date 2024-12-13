@@ -31,7 +31,7 @@ public class oddsandeven {
 			for( int i = 0; i<25; i++) {
 			if ((num[i] % 2) != 0) {
 				System.out.println(num[i]);
-				System.out.println(" ");
+			
 	}
 			}
 			//Blank output to create space between the even and odd numbers
