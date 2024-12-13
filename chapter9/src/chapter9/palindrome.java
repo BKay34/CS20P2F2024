@@ -18,13 +18,26 @@ public static void main(String[] args) {
 	
 	//asking user for his phrase
 	System.out.println("Please enter your phrase: ");
+	// converting every digit into a lowercase to make sure the system doesnt make an error when seeing the palindrome and removing all the spaces within an array
+	phrase = input.next().toLowerCase();
+	phrase = phrase.replaceAll("[^a-z]", "");
+    
+	//putting each character of the phrase into it's own array
+	letterphrase = phrase.toCharArray();
 	
-	phrase = (input.nextLine()).toLowerCase();
-	//
+	for(int i = 0; i <letterphrase.length; i++) {
+	
+		//if the palindromes dont match up then the variable made becomes false
+		if(letterphrase[i] != letterphrase[letterphrase.length - i-1]) 
+			Tpalindrome = false;
+	}
 
-
-
-
+	//if the variable made to keep track of whether the phrase is a palindrome isnt true then it is not a palindrome
+			if (Tpalindrome == false) {
+				System.out.print("Your phrase is not a palindrome");
+			} else { //if the variable is true than will output that the phrase is a palindrome
+				System.out.print("Your phrase is a palindrome");
+			}
 
 
 
