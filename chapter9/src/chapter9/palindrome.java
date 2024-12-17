@@ -1,3 +1,14 @@
+/*
+ * /*Program: palindrome.java          Last Date of this Revision: dec 14 2024
+
+	Purpose: An application that can check if user inputs word is a palindrome or not.
+
+	Author: Justin Fung,
+	School: CHHS
+	Course: Computer Programming 20
+ * 
+ */
+
 package chapter9;
 
 import java.util.Scanner;
@@ -44,4 +55,13 @@ public static void main(String[] args) {
 
 
 /* test case 1:
+ * Please enter your phrase: 
+oddsandevens
+Your phrase is not a palindrome
 
+test case 2:
+Please enter your phrase: 
+
+racecar
+Your phrase is a palindrome
+*/

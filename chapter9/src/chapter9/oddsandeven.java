@@ -1,3 +1,14 @@
+/*
+ * /*Program: oddsandeven.java          Last Date of this Revision: dec 12 2024
+
+	Purpose: An application that will randomly choose 25 odd and even numbers.
+
+	Author: Justin Fung,
+	School: CHHS
+	Course: Computer Programming 20
+ * 
+ */
+
 package chapter9;
 
 import java.lang.Math;
@@ -28,12 +39,13 @@ public class oddsandeven {
 			System.out.println("");
 			System.out.println("ODD: ");
 			
-			for( int i = 0; i<25; i++) {
-			if ((num[i] % 2) != 0) {
-				System.out.println(num[i]);
-			
-	}
+			for (int i = 0; i < 25; i++) {
+			    if ((num[i] % 2) != 0) {
+			        System.out.print(num[i] + " ");
+			    }
 			}
+
+	
 			//Blank output to create space between the even and odd numbers
 			System.out.println("");
 			//displaying all even numbers
