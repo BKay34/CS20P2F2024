@@ -15,7 +15,7 @@ public class gettingstarted {
       greenLED.setIsHubPortDevice(true);
 
       //Open | Open establishes a connection between your object and your physical Phidget. You provide a timeout value of 1000 to give the program 1000 milliseconds (1 second) to locate your Phidget. If your Phidget can't be found, an exception will be thrown.
-      greenLED.open(2000);
+      greenLED.open(1000);
 
       //Use your Phidgets | Here is where you can have some fun and use your Phidgets! You can turn your LED on/off by setting the state to true/false. The sleep command keeps your LED on by letting 1000 milliseconds pass before turning the LED off.
       while(true){
@@ -29,8 +29,8 @@ public class gettingstarted {
           Thread.sleep(1000);
           greenLED.setState(true);
           Thread.sleep(2000);
-          greenLED.setState(true);
-          Thread.sleep(3000);
+          greenLED.setState(false);
+          Thread.sleep(1000);
           break;
   }
 }
