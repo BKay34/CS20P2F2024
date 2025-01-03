@@ -1,0 +1,75 @@
+package gettingstarted2;
+import com.phidget22.*;
+public class thermostat {
+
+
+
+
+    public static void main(String[] args) throws Exception {
+    	double setTemp = 21;
+    	// Create objects for Phidget devices
+       
+    	TemperatureSensor temperatureSensor = new TemperatureSensor();
+        DigitalInput greenButton = new DigitalInput();
+        DigitalInput redButton = new DigitalInput();
+        DigitalOutput greenLED = new DigitalOutput();
+        DigitalOutput redLED = new DigitalOutput();
+
+        // Set up the default set temperature
+       
+       
+        // Configure Phidget ports
+        temperatureSensor.setChannel(3);
+        redButton.setHubPort(0);
+        redButton.setIsHubPortDevice(true);
+        redLED.setHubPort(1);
+        redLED.setIsHubPortDevice(true);
+        greenButton.setHubPort(5);
+        greenButton.setIsHubPortDevice(true);
+        greenLED.setHubPort(4);
+        greenLED.setIsHubPortDevice(true);
+
+        // Open Phidget connections
+        temperatureSensor.open(1000);
+        redButton.open(1000);
+        redLED.open(1000);
+        greenButton.open(1000);
+        greenLED.open(1000);
+        double previousSetT = setTemp;
+        System.out.println("Thermostat Simulation Started");
+
+        while (true) {
+            // Read current temperature
+            double currentTemperature = temperatureSensor.getTemperature();
+
+            // Check button presses to adjust set temperature
+            if (greenButton.getState()) {
+                setTemp++;
+                System.out.println("Green button pressed: Set temperature increased to " + setTemp + "°C");
+                Thread.sleep(500); // Debounce delay
+            }
+
+            if (redButton.getState()) {
+                setTemp--;
+                System.out.println("Red button pressed: Set temperature decreased to " + setTemp + "°C");
+                Thread.sleep(500); // Debounce delay
+            }
+
+            // Print the current and set temperatures every 10 seconds
+            System.out.println("Current Temperature: " + currentTemperature + "°C");
+            System.out.println("Set Temperature: " + setTemp + "°C");
+
+            // Control LEDs based on temperature comparison
+            if (Math.abs(currentTemperature - setTemp) <= 2) {
+                greenLED.setState(true);
+                redLED.setState(false);
+            } else {
+                greenLED.setState(false);
+                redLED.setState(true);
+            }
+
+            // Wait for 10 seconds before the next update
+            Thread.sleep(10000);
+        }
+    }
+}
