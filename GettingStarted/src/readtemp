@@ -18,7 +18,7 @@ public class readtemperature {
 
       //Use your Phidgets | This code will print the temperature every 150ms
       while (true) {
-    	  System.out.println("Temperature: " + ((temperatureSensor.getTemperature() * 1.8 ) + 32) + " °F" );
+    	  System.out.println("Temperature: " + ((temperatureSensor.getTemperature() * 1.8 ) + 32) + " °C" );
           Thread.sleep(150);
       }
   }
