@@ -26,7 +26,7 @@ public class HotorCold {
 		 greenLED.open(1000);
 		 double t = temperatureSensor.getTemperature();
 
-//Open | Open establishes a connection between your object and your physical Phidget. You provide a timeout value of 1000 to give the program 1000 milliseconds (1 second) to locate your Phidget. If your Phidget can't be found, an exception occur.
+//Open creates a connection between your object and your Phidget. You provide a timeout value of 1000 to give the program 1 second to locate your Phidget. If your Phidget can't be found, an exception occur.
 		 humiditySensor.open(1000);
 		 temperatureSensor.open(1000);
 
@@ -49,4 +49,6 @@ public class HotorCold {
 	    	Thread.sleep(150);
 }
 }
+} }
+
 } }
